@@ -1,0 +1,26 @@
+
+
+#expansion{
+  position:absolute;
+  width: 120px;
+  height: 800px;
+}
+
+.button {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  user-select: none;
+}
+
+#clickthroughButton{
+  display: block;
+  position: absolute;
+  width: 120px;
+  height: 800px;
+  background-color: transparent;
+  z-index: 2;
+}
+
+
