@@ -13,4 +13,5 @@ Configuración
 Una vez creada la creatividad debe subirse y configurarse en la plataforma. Dentro de la configuración debemos elegir el formato "HTML5 expandable banner" añadir los paneles , ponerles el nombre que hemos indicado (Por defecto userPanel1 y userPanel2), añadir el tamaño, marcar "Never" en la opcion "Auto retract when", y poner la posición (segun el tamaño del billboard). Tambien debemos desmarcar la opción que impide ver más de un panel a la vez ("show single panel at a time").
 
 
+
 Una vez hecho esto podemos salvar y previsualizar nuestra pieza.
