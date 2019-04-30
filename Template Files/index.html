@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>HTML5 Billboard + skys</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="http://ds.serving-sys.com/BurstingScript/adKit/adkit.js"></script>
+    <script type="text/javascript"> 
+
+        function startAd() {
+            adDiv = document.getElementById("ad");
+            
+            adkit.expand({
+                panelName: "Sky_Izq",
+                actionType: adkit.ActionType.AUTO,
+                useCustomClose: true
+            });
+            adkit.expand({
+                panelName: "Sky_Der",
+                actionType: adkit.ActionType.AUTO,
+                useCustomClose: true
+            });
+
+            document.getElementById("clickthroughButton").addEventListener("click",function(){
+                EB.clickthrough();
+            });
+        }
+
+        adkit.onReady(startAd);
+
+    </script>
+</head>
+<body>
+    <div id="ad">
+      <button id="clickthroughButton" class="button"></button>
+      <img src="images/default.jpg" alt="Sizmek" />
+    </div>
+</body>
+</html>
